@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.basiccryptographicalgorithms.MainController">
+   <children>
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="246.0" layoutY="20.0" text="Basic Cryptographic Algorithms" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Separator layoutX="212.0" layoutY="57.0" prefHeight="19.0" prefWidth="371.0" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="341.0" layoutY="95.0" text="Select algorithm" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <HBox alignment="TOP_CENTER" layoutX="107.0" layoutY="119.0" prefHeight="55.0" prefWidth="600.0">
+         <children>
+            <RadioButton fx:id="railFenceBtn" mnemonicParsing="false" text="Rail Fence">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <toggleGroup>
+                  <ToggleGroup fx:id="selectedAlgorithm" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="columnTransNumberBtn" mnemonicParsing="false" text="Columnar Transposition (number key)" toggleGroup="$selectedAlgorithm">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="columnTransTextBtn" mnemonicParsing="false" text="Columnar Transposition (text key)" toggleGroup="$selectedAlgorithm">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </RadioButton>
+         </children>
+      </HBox>
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="129.0" layoutY="174.0" text="Enter message" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="messageInput" layoutX="75.0" layoutY="199.0" onAction="#messageInputAction" prefHeight="26.0" prefWidth="214.0" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="343.0" layoutY="174.0" text="Set fence height" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fenceHeightInput" layoutX="381.0" layoutY="198.0" onAction="#fenceHeightInputAction" prefHeight="26.0" prefWidth="33.0" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="605.0" layoutY="174.0" text="Enter key" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="keyInput" layoutX="556.0" layoutY="197.0" onAction="#keyInputAction" prefHeight="26.0" prefWidth="161.0" />
+      <GridPane layoutX="297.0" layoutY="249.0" prefHeight="48.0" prefWidth="188.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="104.66668701171875" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="98.0" minWidth="10.0" prefWidth="88.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="encryptBtn" mnemonicParsing="false" onAction="#encryptBtnAction" prefHeight="30.0" prefWidth="63.0" text="Encrypt" translateX="20.0">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="decryptBtn" mnemonicParsing="false" onAction="#decryptBtnAction" prefHeight="30.0" prefWidth="63.0" text="Decrypt" translateX="16.0" GridPane.columnIndex="1">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+         </children>
+      </GridPane>
+      <TextArea fx:id="resultTextBox" layoutX="76.0" layoutY="344.0" prefHeight="100.0" prefWidth="214.0" />
+      <Button fx:id="copyBtn" layoutX="312.0" layoutY="364.0" mnemonicParsing="false" onAction="#copyBtnAction" prefHeight="30.0" prefWidth="63.0" text="Copy" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="156.0" layoutY="317.0" text="Result" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="clearBtn" layoutX="312.0" layoutY="400.0" mnemonicParsing="false" onAction="#clearBtnAction" prefHeight="30.0" prefWidth="63.0" text="Clear" />
+   </children>
+</AnchorPane>

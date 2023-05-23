@@ -1,0 +1,19 @@
+
+^
+java:S4973G"<Strings and Boxed types should be compared using "equals()".(—ƒÒÓøÿÿÿÿ8ù¡Û¿„1
+^
+java:S4973G"<Strings and Boxed types should be compared using "equals()".(—ƒÒÓøÿÿÿÿ8ú¡Û¿„1
+Y
+java:S4973m"<Strings and Boxed types should be compared using "equals()".(‡š°é8ú¡Û¿„1
+Z
+java:S4973‰"<Strings and Boxed types should be compared using "equals()".(Çåäò8û¡Û¿„1
+`
+java:S1659"CDeclare "inputQ" and all following declarations on a separate line.(Ú¶·î8õ¢Û¿„1
+t
+java:S1659"RDeclare "encryptedMessageInput" and all following declarations on a separate line.(ÔÆíâüÿÿÿÿ8õ¢Û¿„1
+K
+java:S21408")Use "java.util.Random.nextInt()" instead.(ØÑÜüÿÿÿÿ8‰£Û¿„1
+;
+java:S2119Q"Save and re-use this "Random".(ÖÕ¨Ÿ8¥£Û¿„1
+@
+java:S2119S"Save and re-use this "Random".(ÊÍËüÿÿÿÿ8§£Û¿„1

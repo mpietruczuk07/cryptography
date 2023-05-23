@@ -1,0 +1,11 @@
+
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(µΔ£ΐώÿÿÿÿ8¦΅Αθυ0
+W
+java:S1994!":Move the update of "index" into this loop's update clause.(κ€ν8ξΐθυ0
+t
+java:S37767"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(µ§Ίψÿÿÿÿ8οΐθυ0
+W
+java:S1994K":Move the update of "index" into this loop's update clause.(κ€ν8πΐθυ0
+K
+java:S1940V")Use the opposite operator ("!=") instead.(Θ³φΜωÿÿÿÿ8ρΐθυ0

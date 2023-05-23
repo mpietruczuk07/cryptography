@@ -1,0 +1,19 @@
+
+t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8…ŞÈèõ0
+y	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(«âŠ”ÿÿÿÿÿ8…ŞÈèõ0
+t	java:S1279"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8†ŞÈèõ0
+y	java:S127;"XRefactor the code in order to not assign to this loop counter from within the loop body.(«âŠ”ÿÿÿÿÿ8†ŞÈèõ0
+s	java:S127M"XRefactor the code in order to not assign to this loop counter from within the loop body.(‚ƒ.8†ŞÈèõ0
+t	java:S127Q"XRefactor the code in order to not assign to this loop counter from within the loop body.(Îû¾¬8†ŞÈèõ0
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ÙÿÇşÿÿÿÿ8ùßÈèõ0
+X
+java:S1994"6Move the update of "i" into this loop's update clause.(¸’ïŒÿÿÿÿÿ8úßÈèõ0
+t
+java:S3776."RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¼¿Ãüÿÿÿÿ8ûßÈèõ0
+X
+java:S19947"6Move the update of "i" into this loop's update clause.(¤”Œôûÿÿÿÿ8ıŸÕœ‚1
+ˆ
+java:S21787"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(¤”Œôûÿÿÿÿ8ıŸÕœ‚1
+‚
+java:S2178M"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(‚ƒ.8üßÈèõ0
