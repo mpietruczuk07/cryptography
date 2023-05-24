@@ -4,8 +4,8 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ThreadLocalRandom;
 
+//https://www.geeksforgeeks.org/how-to-generate-large-prime-numbers-for-rsa-algorithm/
 public class PrimeNumberGenerator {
     private static int[] first100Primes = {
             2, 3, 5, 7, 11, 13, 17, 19, 23, 29,

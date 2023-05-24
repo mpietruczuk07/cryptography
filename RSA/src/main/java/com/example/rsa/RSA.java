@@ -24,13 +24,6 @@ public class RSA {
         return a;
     }
 
-    //not used
-    public static int findGCDRecursive(long a, long b) {
-        if (b != 0)
-            return findGCDRecursive(b, a % b);
-        return (int) a;
-    }
-
     public static BigInteger[] findE(BigInteger phiN, int quantity) {
         BigInteger possibleENumbers[] = new BigInteger[quantity];
         int iNum = 0;

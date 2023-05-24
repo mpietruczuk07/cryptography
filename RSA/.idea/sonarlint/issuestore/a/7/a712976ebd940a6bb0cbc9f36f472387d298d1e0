@@ -4,6 +4,6 @@ java:S1118":Add a private constructor to hide the implicit public one.(³ÀŸ¦ûÿÿ
 J
 java:S2200"/Only the sign of the result should be examined.(ÈÊ¶Ÿþÿÿÿÿ
 E
-java:S1197#"*Move the array designators [] to the type.(ÆÖ¥—ûÿÿÿÿ
+java:S1197"*Move the array designators [] to the type.(ÆÖ¥—ûÿÿÿÿ
 E
-java:S1197/"*Move the array designators [] to the type.(ŸÓË¥ýÿÿÿÿ
+java:S1197("*Move the array designators [] to the type.(ŸÓË¥ýÿÿÿÿ

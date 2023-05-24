@@ -1,7 +1,7 @@
 # Cryptography
 This repository contains several cryptographical algorithms I've created during Computer Network Security course at Bialystok University of Technology. All algorithms are written in Java and have a GUI implementation created with JavaFX.
 
-**Basic Cryptography Algorithms** - the implementation of transposition cipher algorithmss like Rail Fence, Columnar Transposition with numeric key and Columnar Transposition with text key.
+**Basic Cryptographic Algorithms** - the implementation of transposition cipher algorithmss like Rail Fence, Columnar Transposition with numeric key and Columnar Transposition with text key.
 
 **LFSR** - the implementation of stream cipher algorithm based on LFSR generator. You can encrypt and decrypt both text messages and diverse types of files.
 
